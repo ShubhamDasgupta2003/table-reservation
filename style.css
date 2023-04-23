@@ -115,17 +115,27 @@ form label
     .images img{
         display: none;
     }
+    .formcontainer
+    {
+        width:80vw;
+        margin: auto;
+    }
+    .formcontainer p
+    {
+        font-size: 2rem;
+    }
     form
     {
-        width: 50vw;
+        width: 70vw;
         margin: auto;
     }
     form input
     {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
+        width: auto;
     }
     form label
     {
-        font-size: 1.7rem;
+        font-size: 1rem;
     }
 }

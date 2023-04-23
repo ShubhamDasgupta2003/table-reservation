@@ -109,6 +109,7 @@ form label
     color: white;
     border: 1px rgb(255, 102, 0);
     background-color: rgb(255, 102, 0);
+    cursor:pointer;
 }
 
 @media (max-width:1034px) {

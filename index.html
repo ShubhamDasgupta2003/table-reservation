@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Table Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formcontainer">
+            <p>Online Table Booking</p>
+            <div class="bookform">
+                <div class="images">
+                    <img src="seating_pic2.jpg" alt="" width="500">
+                    <!-- <img src="food_pic1.jpg" alt="" width="500"> -->
+                </div>
+                <div class="formclass">
+                    <form action="">
+                        <label for="bookdate">Booking date</label>
+                        <input type="date" id="bookdate" name="" required placeholder="Select date">
+        
+                        <label for="booktime">Booking time</label>
+                        <input type="time" id="booktime" placeholder="Time" required>
+                        
+                        <label for="persons">Number of persons</label>
+                        <input type="number" min="1" id="persons" placeholder="Number of persons" required>
+        
+                        <label for="phone">Contact number</label>
+                        <input type="tel" minlength="10" maxlength="10" id="phone" placeholder="Contact No." required>
+        
+                        <label for="mailid">Email Id</label>
+                        <input type="email" id="mailid" placeholder="Email" required>
+        
+                        <button class="button" id="submitbooking">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
